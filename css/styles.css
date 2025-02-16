@@ -604,11 +604,11 @@ max-width: 264px;
                 visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .backdrop.is-open {
+.backdrop.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-} */
+}
 
 .modal {
     width: 408px;
@@ -644,8 +644,7 @@ max-width: 264px;
                 border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close:hover,
-.modal-close:focus {
+.modal-close:hover {
     background-color: #404bbf;
     border:none;
     fill: #fff;
@@ -762,12 +761,13 @@ margin-right: 8px;
 align-items: center;
 justify-content: center;
 fill: transparent;
+cursor: pointer;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
             border 250ms cubic-bezier(0.4, 0, 0.2, 1),
             fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-check:checked + .modal-check-text .modal-check-item {
+.modal-check:checked + .modal-label .modal-check-item {
 background-color: #404bbf;
 border: none;
 fill: #f4f4fd;
