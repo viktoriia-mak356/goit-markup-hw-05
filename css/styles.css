@@ -442,8 +442,8 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
-margin-bottom: 16px;
-display: inline-block;
+/* margin-bottom: 16px;
+display: inline-block; */
 }
 
 .footer-logo-italic{
@@ -460,6 +460,7 @@ max-width: 264px;
 }
 
 .footer-social {
+    fill: #f4f4fd;
 }
 
 .footer-social-text {
@@ -469,13 +470,15 @@ max-width: 264px;
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;
-    display: block;
+    /* display: block; */
 }
 
 .footer-social-icon {
     display: flex;
+    justify-content: start;
+    align-items: center;
     gap: 16px;
-    width: 208px;
+    /* width: 208px; */
 }
 
 .list-social-icon {
@@ -502,17 +505,18 @@ max-width: 264px;
 .social-link-svg:focus {
     background-color:#31d0aa;
 }
-
+/* 
 .footer-bottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+    
+} */
 
 .container-form {
-    display: inline-block;
-    margin-left: 80px;
-    top: 0; 
+    /* display: inline-block; */
+    margin-left: 65px;
+    /* top: 0;  */
 }
 
 .footer-form-text {
@@ -528,6 +532,7 @@ max-width: 264px;
     display: flex;
     gap: 24px;
 }
+
 .footer-input {
     border: 1px solid #ffffff;
     border-radius: 4px;
@@ -540,17 +545,18 @@ max-width: 264px;
     padding-left: 16px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     color:#ffffff;
+    outline: none;
 
 }
 
-.footer-input::placeholder {
+/* .footer-input::placeholder {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
     color: #ffffff;
-}
+} */
 
 .footer-btn {
     min-width: 165px;
@@ -569,11 +575,17 @@ max-width: 264px;
     /* padding: 8px 24px; */
     border: none;
     background-color: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-btn:hover,
+.footer-btn:focus {
+    background-color: #404bbf;
 }
 
 .footer-icon-send {
     margin-left: 16px;
-    /* fill: #fff; */
+    fill: #fff;
 }
 
 .backdrop {
@@ -585,9 +597,9 @@ max-width: 264px;
     /* display: flex;
     align-items: center;
     justify-content: center; */
-    /* opacity: 0;
+    opacity: 0;
     visibility: hidden;
-    pointer-events: none; */
+    pointer-events: none;
 }
 
 /* .is-open {
