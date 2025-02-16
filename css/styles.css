@@ -568,9 +568,9 @@ max-width: 264px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    /* letter-spacing: 0.04em; */
+    letter-spacing: 0.04em;
     color: #ffffff;
-    cursor: pointer;
+    /* cursor: pointer; */
     border-radius: 4px;
     /* padding: 8px 24px; */
     border: none;
@@ -593,7 +593,7 @@ max-width: 264px;
     height: 100%;
     position: fixed;
     top: 0;
-    /* background-color: rgba(46, 47, 66, 0.4); */
+    background-color: rgba(46, 47, 66, 0.4);
     /* display: flex;
     align-items: center;
     justify-content: center; */
@@ -704,11 +704,11 @@ max-width: 264px;
 }
 
 .modal-label {
-    /* display: block; */
+    display: block;
     margin-bottom: 4px;
     font-weight: 400;
     font-size: 12px;
-    /* line-height: 1.17; */
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
@@ -759,7 +759,7 @@ height: 16px;
 border-radius: 2px;
 border: none;
 margin-right: 8px;
-/* display: inline-flex; */
+display: inline-flex;
 align-items: center;
 justify-content: center;
 fill: transparent;
