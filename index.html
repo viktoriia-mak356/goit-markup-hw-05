@@ -426,7 +426,7 @@
         </div>
     </footer>
 
-    <div class="backdrop">
+    <div class="backdrop is-open" >
         <div class="modal">
             <button type="button"
             class="modal-close"
@@ -498,7 +498,7 @@
     </div>
     </div>
 
-    <div class="modal-field">
+    <div class="modal-field-comment">
         <label 
         for="user-comment" 
         class="modal-label"
@@ -510,9 +510,10 @@
         class="modal-textarea"
         placeholder="Text input"></textarea>
     </div>
-
+<div class="modal-checkbox">
     <input 
-    type="checkbox" 
+    type="checkbox"
+    value="true" 
     name="policy" 
     id="policy"
     class="modal-check visually-hidden"
@@ -525,8 +526,6 @@
 </span>
 I accept the terms and conditions of the <a href="" class="policy-link">Privacy Policy</a>
 </label>
-    <div class="modal-field">
-
     </div>
                 <button type="submit" class="modal-btn">Send</button>
             </form>
